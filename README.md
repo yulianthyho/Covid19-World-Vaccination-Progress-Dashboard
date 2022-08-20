@@ -10,10 +10,9 @@ If 2020 was dominated by the news of how Covid -19 spread across the world, then
 
 **Data Cleaning steps:**
 - Drop some unnecessary columns and rows using BigQuery
-- For columns total vaccinations, people vaccinated are cumulative sum. So we need last date of vaccinations to find out the exact number of people vaccinated and total vaccinations of each country. Here I used BigQuery to get the rows with last date of vaccinations.
-- Use Google Sheets to add Region Column
-- Use Google Sheets to create a dummy variable to find out types of vaccines used in each country
-- Use Google Sheets to add variable of People Once Vaccinated. Here the equation I use ( SUM of People Vaccinated - SUM People Fully Vaccinated).
+- For columns total vaccinations & people vaccinated are cumulative sum. So we need last date of vaccinations to find out the exact number of people vaccinated and total vaccinations of each country. Here I used BigQuery to get the rows with last date of vaccinations.
+- In Google Sheets I add Region column and create a dummy variable to find out types of vaccines used in each country
+- Add variable of People Once Vaccinated. Here the equation I use ( SUM of People Vaccinated - SUM People Fully Vaccinated).
 - Export the files and connect it to Tableau
 
 ## ✨Insight
