@@ -5,6 +5,17 @@ Built an interactive map chart to see the vaccination progress for each countrie
 ## Overview
 If 2020 was dominated by the news of how Covid -19 spread across the world, then 2021 has so far been focused on ending pandemic through vaccine distribution.
 
+## Data Cleaning and Preparation
+**Tools** : BigQuery and Google Sheets
+
+**Data Cleaning steps:**
+- Drop some unnecessary columns and rows using BigQuery
+- For columns total vaccinations, people vaccinated are cumulative sum. So we need last date of vaccinations to find out the exact number of people vaccinated and total vaccinations of each country. Here I used BigQuery to get the rows with last date of vaccinations.
+- Use Google Sheets to add Region Column
+- Use Google Sheets to create a dummy variable to find out types of vaccines used in each country
+- Use Google Sheets to add variable of People Once Vaccinated. Here the equation I use ( SUM of People Vaccinated - SUM People Fully Vaccinated).
+- Export the files and connect it to Tableau
+
 ## ✨Insight
 - More than 5.1 billion people worldwide have received a dose of a Covid-19 vaccine, equal to about 65.38 percent of the world population.
 - There are 24 types of vaccines available which used across the world.
