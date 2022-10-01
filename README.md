@@ -31,4 +31,4 @@ If 2020 was dominated by the news of how Covid -19 spread across the world, then
 ## 🌈🌈Visualization
 See full of my interactive story line in Tableau: [here](https://public.tableau.com/views/W10W11_16596100766930/CovidStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-![image](https://user-images.githubusercontent.com/100077706/185742808-9fcb5fd6-dd63-4352-9e42-db40bc8cd7a0.png)
+![image](https://user-images.githubusercontent.com/100077706/185742808-9fcb5fd6-dd63-4352-9e42-db40bc8cd7a0.png) 
