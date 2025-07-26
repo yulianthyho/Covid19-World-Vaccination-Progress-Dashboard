@@ -29,7 +29,7 @@ If 2020 was dominated by the news of how Covid -19 spread across the world, then
 - Start increasing vaccinations for people who are only vaccinated once to get the fully vaccinated according to the vaccinations scheme and health protocol suggested by WHO.
 - Start increasing the number of vaccinations for some countries that may lack access to vaccines. Such as underprivileged countries in the African continent which have low people vaccinations rate.
 
-## 🌈🌈Visualization
+## Visualization
 See full of my interactive story line in Tableau: [here](https://public.tableau.com/views/W10W11_16596100766930/CovidStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ![image](https://user-images.githubusercontent.com/100077706/185742808-9fcb5fd6-dd63-4352-9e42-db40bc8cd7a0.png) 
