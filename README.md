@@ -1,6 +1,6 @@
-# 🌎 Covid19 World Vaccination Progress 
+# 🌎 Covid-19 World Vaccination Progress Dashboard
 
-Built an interactive map chart to see the vaccination progress for each countries, the types of vaccines used across the country, the percentage of people who Once Vaccinated vs Fully Vaccinated, and to find out region with the lowest vaccination rates.
+Built an interactive map chart to see the vaccination progress for each countries, the types of vaccines used across the country, the percentage of people who Once Vaccinated vs Fully Vaccinated, and to find out region with the lowest vaccination rates.Tools : Tableau
 
 ## Overview
 If 2020 was dominated by the news of how Covid -19 spread across the world, then 2021 has so far been focused on ending pandemic through vaccine distribution.
