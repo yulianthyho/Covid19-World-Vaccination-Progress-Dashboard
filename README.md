@@ -1,6 +1,7 @@
 # 🌎 Covid-19 World Vaccination Progress Dashboard
 
-Built an interactive map chart to see the vaccination progress for each countries, the types of vaccines used across the country, the percentage of people who Once Vaccinated vs Fully Vaccinated, and to find out region with the lowest vaccination rates.Tools : Tableau
+Built an interactive map chart to see the vaccination progress for each countries, the types of vaccines used across the country, the percentage of people who Once Vaccinated vs Fully Vaccinated, and to find out region with the lowest vaccination rates.
+**Tools** : Tableau
 
 ## Overview
 If 2020 was dominated by the news of how Covid -19 spread across the world, then 2021 has so far been focused on ending pandemic through vaccine distribution.
@@ -9,11 +10,11 @@ If 2020 was dominated by the news of how Covid -19 spread across the world, then
 **Tools** : BigQuery and Google Sheets
 
 **Data Cleaning steps:**
-- Drop some unnecessary columns and rows using BigQuery
-- For columns total vaccinations & people vaccinated are cumulative sum. So we need last date of vaccinations to find out the exact number of people vaccinated and total vaccinations of each country. Here I used BigQuery to get the rows with last date of vaccinations.
-- In Google Sheets I add Region column and create a dummy variable to find out types of vaccines used in each country
-- Add variable of People Once Vaccinated. Here the equation I use ( SUM of People Vaccinated - SUM People Fully Vaccinated).
-- Export the files and connect it to Tableau
+- Dropped unnecessary columns and rows using BigQuery.
+- The total_vaccinations and people_vaccinated columns are cumulative values. To obtain the exact number of people vaccinated and total vaccinations per country, I extracted only the latest available record for each country using BigQuery.
+- Added a Region column and created dummy variables in Google Sheets to identify the types of vaccines used in each country.
+- Created a new variable: People Vaccinated Once, calculated using the formula: SUM(People Vaccinated) - SUM(People Fully Vaccinated).
+- Exported the cleaned dataset and connected it to Tableau for visualization.
 
 ## ✨Insight
 - More than 5.1 billion people worldwide have received a dose of a Covid-19 vaccine, equal to about 65.38 percent of the world population.
